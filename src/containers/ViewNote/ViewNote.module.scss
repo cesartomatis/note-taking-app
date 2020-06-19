@@ -1,0 +1,36 @@
+@import '../../styles/variables.scss';
+@import '../../styles/breakpoints.scss';
+
+.Note {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 4px -1px $black;
+  @include desktop {
+    max-width: 50%;
+    margin: 1.5rem auto;
+  }
+  & > label {
+    margin: 0.5rem;
+  }
+  .Title {
+    font-size: 2rem;
+    color: $primary;
+    font-weight: bold;
+  }
+  .Body {
+    font-size: 1rem;
+    color: $secondary;
+    word-break: break-word;
+    text-align: start;
+  }
+  .Date {
+    text-align: end;
+    font-size: 0.7rem;
+    color: $grey;
+  }
+}

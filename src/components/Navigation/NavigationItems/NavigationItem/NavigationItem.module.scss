@@ -1,0 +1,16 @@
+@import '../../../../styles/breakpoints.scss';
+@import '../../../../styles/variables.scss';
+
+.MenuLink {
+  text-decoration: none;
+  .MenuItem {
+    padding: 2px;
+    &:hover {
+      cursor: pointer;
+    }
+    .MenuIcon {
+      color: $background;
+      font-size: 2.5rem;
+    }
+  }
+}

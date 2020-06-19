@@ -1,0 +1,20 @@
+@import '../../../styles/variables.scss';
+
+.FAB {
+  user-select: none;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: $secondary;
+  color: $background;
+  box-shadow: 0px 0px 4px 1px $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  &:hover {
+    cursor: pointer;
+  }
+}

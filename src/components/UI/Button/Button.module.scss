@@ -1,0 +1,32 @@
+@import '../../../styles/variables.scss';
+
+.Button {
+  background-color: transparent;
+  border: none;
+  color: $background;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.Button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.Success {
+  background-color: $success;
+}
+
+.Danger {
+  background-color: $danger;
+}
+
+.Neutral {
+  background-color: $secondary;
+}

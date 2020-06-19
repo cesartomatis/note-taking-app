@@ -1,0 +1,8 @@
+@import '../../styles/breakpoints.scss';
+
+.Container {
+  padding: 1rem 5rem;
+  @include desktop {
+    padding: 2rem 20rem;
+  }
+}
